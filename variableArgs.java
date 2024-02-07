@@ -1,4 +1,4 @@
-public class variableArgs{
+/*public class variableArgs{
     static void fun(int...a)
     {
         System.out.println("Number of arguments: "+a.length);
@@ -15,4 +15,23 @@ public class variableArgs{
             fun(1,2,3);
             fun();
         }
+}*/
+
+public class variableArgs{
+    static void fun(String str,int...a)
+    {
+        System.out.println("String: "+str);
+        System.out.println("Number of arguments: "+a.length);
+        for(int i:a)
+        {
+            System.out.print(i+" ");
+            System.out.println();
+        }
+    }
+    public static void main(String args[]) 
+    {
+        fun("LPU",100);
+        fun("Hello",1,2,3,4);
+        fun("World");
+    }
 }
