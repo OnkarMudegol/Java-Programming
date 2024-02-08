@@ -6,6 +6,7 @@ public class stringFunctions{
         sb.append(" ");
         sb.append("World");
         sb.insert(5," Java");
+        sb.replace(0,5,"Hi");
         String message = sb.toString();
         System.out.println(message);
     }
