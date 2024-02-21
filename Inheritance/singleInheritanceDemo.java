@@ -24,8 +24,8 @@ class Result extends Marks{
     public float total, average;
     public void compute()
     {
-        total = super.javaMarks + super.cppMarks + super.cMarks;
-        average = total / 3;
+        total = javaMarks + cppMarks + cMarks;
+        average = total / 3.0f;
     }
     public void showResult()
     {
