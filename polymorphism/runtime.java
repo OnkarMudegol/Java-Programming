@@ -1,3 +1,5 @@
+
+
 class Animal {
     public void makeSound() {
         System.out.println("The animal makes a sound");
@@ -25,20 +27,5 @@ public class Main {
         myAnimal.makeSound();  // call the makeSound method of the Animal class
         myPig.makeSound();  // call the makeSound method of the Pig class
         myDog.makeSound();  // call the makeSound method of the Dog class
-    }
-}
-
-class 1
-{
-    class Helper
-    {
-        static int multiply(int a, int b)
-        {
-            return a*b;
-        }
-        static double multiply(double a, double b)
-        {
-            return a*b;
-        }
     }
 }
