@@ -1,4 +1,4 @@
-//Here multiple methods of the same name and parametes are created. During compilation, based on the arguments, the compiler decides which one to call. This is also known as static binding and early binding.
+//Here multiple methods of the same name and parametes are created. During compilation, based on the arguments, the compiler decides which one to call. This is also known as static binding and early binding. Funtion overloading. Operator overloading is prohibitted in java. 
 
 //method overload the sum function using int, double and float 
 import java.util.Scanner;
