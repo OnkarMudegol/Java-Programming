@@ -1,4 +1,4 @@
-
+//Here multiple methods of the same name and parametes are created in the parent and the child class. At runtime when the method is called through an instance/object of the child class, the definition in the chilc class overrrides the one in the parent class. This is also known as late binding  or dynamic binding.
 
 class Animal {
     public void makeSound() {
@@ -18,7 +18,7 @@ class Dog extends Animal {
     }
 }
 
-public class Main {
+public class runtime {
     public static void main(String[] args) {
         Animal myAnimal = new Animal();  // create an Animal object
         Animal myPig = new Pig();  // create a Pig object
