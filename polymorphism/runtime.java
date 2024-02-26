@@ -1,4 +1,4 @@
-//Here multiple methods of the same name and parametes are created in the parent and the child class. At runtime when the method is called through an instance/object of the child class, the definition in the chilc class overrrides the one in the parent class. This is also known as late binding  or dynamic binding.
+//Here multiple methods of the same name and parametes are created in the parent and the child class. At runtime when the method is called through an instance/object of the child class, the definition in the chilc class overrrides the one in the parent class. This is also known as late binding  or dynamic binding. Function overriding.
 
 class Animal {
     public void makeSound() {
