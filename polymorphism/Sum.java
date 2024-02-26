@@ -7,8 +7,6 @@ public class Sum {
         System.out.println(sum(5.2,4.8));//calling method with double  parameters
         System.out.println(sum(5.2f,4.8f));//calling method with  float parameters
         System.out.println(sum('A',4));//calling method with string parameters
-        
-        
     }       
     static int sum(int x, int y)    
     {         
