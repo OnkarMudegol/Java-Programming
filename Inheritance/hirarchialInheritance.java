@@ -20,7 +20,7 @@ class InternEmployee extends Employee{
         salary = salary + (salary*hike);
     }
 }
-public class hirerchialInheritance{
+public class hirarchialInheritance{
     public static void main(String args[])
     {
         FullTimeEmployee emp1 = new FullTimeEmployee();
