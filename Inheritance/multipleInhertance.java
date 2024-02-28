@@ -1,9 +1,12 @@
 interface Animal {
     void makeSound();
+}
+interface Mamal
+{
     void countLegs();
 }
 
-class Dog implements Animal {
+class Dog implements Animal,Mamal {
     public void makeSound() {
         System.out.println("A dog barks.");
     }
@@ -13,7 +16,7 @@ class Dog implements Animal {
     }
 }
 
-class Cat implements Animal {
+class Cat implements Animal, Mamal {
     public void makeSound() {
         System.out.println("A cat meows.");
     }
@@ -23,7 +26,7 @@ class Cat implements Animal {
     }
 }
 
-class Duck implements Animal {
+class Duck implements Animal, Mamal {
     public void makeSound() {
         System.out.println("A duck quacks.");
     }
