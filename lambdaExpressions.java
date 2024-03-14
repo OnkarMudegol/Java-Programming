@@ -40,6 +40,7 @@
 // }
 
 //Multiple argumnet lambda expression
+//We can write a lambda expression with or without return statement
 interface Addable
 {
     int add(int a, int b);
@@ -50,7 +51,8 @@ public class lambdaExpressions
     {
         Addable ad1 = (a,b)->(a+b);
         System.out.println(ad1.add(10,20));
-        Addable ad2 = (a,b)->(a*b);
+        //in the earlier defination, we did not give the types of the arguments but here we have given. Both the methods are valid.
+        Addable ad2 = (int a, int b)->(a*b);
         System.out.println(ad2.add(100,200));
     }
 }
