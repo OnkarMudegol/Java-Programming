@@ -7,7 +7,7 @@ abstract class Person
 {
     abstract void eat();
 }
-class anonymousInnerClass
+class anonymousClass
 {
     public static void main(String args[])
     {
@@ -21,5 +21,25 @@ class anonymousInnerClass
             };
         };
         p.eat();
+    }
+}
+
+interface Drawable
+{
+    public void draw();
+}
+public class anonymousClass
+{
+    pubic static void main(String args[])
+    {
+        int width = 10;
+        Drawable d = mew Drawable()
+        {
+            public void draw()
+            {
+                System.out.println("Drawing: "+width);
+            };
+        }
+        d.draw();
     }
 }
