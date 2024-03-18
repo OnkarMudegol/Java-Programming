@@ -7,9 +7,22 @@ public class formattingDateAndTime
     {
         LocalDateTime Obj = LocalDateTime.now();
         System.out.println("Before formatting: "+Obj);
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("E, dd-MM-yyyy HH:mm:ss");
-        String formatted = Obj.format(formatter);
-        System.out.println("After formatting: "+formatted);
+        DateTimeFormatter formatter_1 = DateTimeFormatter.ofPattern("E, dd-MM-yyyy HH:mm:ss");
+        DateTimeFormatter formatter_2 = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+        DateTimeFormatter formatter_3 = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss");
+        DateTimeFormatter formatter_4 = DateTimeFormatter.ofPattern("dd-MMM-yyyy HH:mm:ss");
+        DateTimeFormatter formatter_5 = DateTimeFormatter.ofPattern("E, MMM dd yyyy HH:mm:ss");
+        String formatted_1 = Obj.format(formatter_1);
+        String formatted_2 = Obj.format(formatter_2);
+        String formatted_3 = Obj.format(formatter_3);
+        String formatted_4 = Obj.format(formatter_4);
+        String formatted_5 = Obj.format(formatter_5);
+        System.out.println("After formatting: ");
+        System.out.println(formatted_1);
+        System.out.println(formatted_2);
+        System.out.println(formatted_3);
+        System.out.println(formatted_4);
+        System.out.println(formatted_5);
     }
 }
 //Note: 
