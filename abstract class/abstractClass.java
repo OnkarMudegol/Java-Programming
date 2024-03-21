@@ -15,8 +15,8 @@ abstract class A
     {
         System.out.println("Non abstract member function of abstrct class A");
     }
-    final void Final()  //This is the final definition, it cannot be overwritten in member
-                    //classes
+    final void Final()
+    //This is the final definition, it cannot be overwritten in member classes
     {
         System.out.println("Final funtion of abstract class A");
     }
