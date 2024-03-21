@@ -1,3 +1,9 @@
+//Some important points:
+// 1.An Abstract class can have abstract as well as no-abstract methods
+// 2.An Abstract class can also have Final and Static methods
+// 3.When craeting an object, we craete it according to the memory of the derived class.
+//   e.g. Base  b = new Derived();
+
 abstract class A
 {
     A()
