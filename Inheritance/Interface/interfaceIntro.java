@@ -1,5 +1,5 @@
 // Not necessary but helps you find the error in case your interface does not follow the rules
-//SAM - Single Abstract Method; Functional interface is a interface containing a single abstract method
+//SAM - Single Abstract Method; Functional interface is a interface containing a single abstract method, can conatin any number of other methods, doesnt matter
 @FunctionalInterface
 interface API
 {
