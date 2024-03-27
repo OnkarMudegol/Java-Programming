@@ -1,3 +1,6 @@
+// Not necessary but helps you find the error in case your interface does not follow the rules
+//SAM - Single Abstract Method; Functional interface is a interface containing a single abstract method
+@FunctionalInterface
 interface API
 {
     //default method - this method can be overrriden in derived classes, but provides a base case 
