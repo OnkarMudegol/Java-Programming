@@ -1,3 +1,4 @@
+//The program terminates after the execution of the catch block
 import java.io.FileInputStream;
 public class exceptionHandling
 {
