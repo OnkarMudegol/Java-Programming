@@ -3,6 +3,8 @@
 //Checked excceptions are the exceptions about which the compiler will alert us wile compiling. Unchecked are the ones which the compiler does'nt know about. 
 //Note: Both exceptions will occur at run time, it is just that the compiler warns us about the  potential problem in checked exceptions
 //Eception has 3 parts : Name, description and stack trace. Stack trace means all the necessary  information about where an exception occurred in code. 
+//When printing the object of Exception class, only first two components are placed
+//To print all three, use default or printStackTrace() attribute of e object.
 public class exceptionsIntro
 {
     public static void main(String args[])
