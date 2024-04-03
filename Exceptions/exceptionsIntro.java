@@ -1,6 +1,6 @@
 //Exceptions are of two types, checked and unchecked
-//Arithematic exceptions are unchceked exceptions, which means the program will be compiled, exception will be thrown at
-//run time
+//Arithematic exceptions are unchceked exceptions, which means the program will be compiled, exception will be thrown at run time
+//Checked excceptions are the exceptions about which the compiler will alert us wile compiling. Unchecked are the ones which the compiler does'nt know about.
 public class exceptionsIntro
 {
     public static void main(String args[])
