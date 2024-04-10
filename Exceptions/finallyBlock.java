@@ -13,7 +13,7 @@ public class finallyBlock
         //Catch block is optional, if exception : finally folowed by exception msg
         //We can have multiple catch block for different type of exceptions, but one exception can be caught only once. 
         //Here if we put the Exception class one first then the Arithematic class after, it will give error as our exception is already caught once by the Exception superclass, leaving nothing for the ArithematicException subclass
-        catch(ArithematicException e)
+        catch(ArithmeticException e)
         {
             System.out.println("Inside catch block 1");
         }
