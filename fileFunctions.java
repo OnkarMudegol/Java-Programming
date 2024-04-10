@@ -15,7 +15,7 @@ class fileFunctions
         System.out.println(f1.exists()?"Exists":"Does not Exists");
         System.out.println(f1.canWrite()?"is writable":"is not writable");
         System.out.println(f1.canRead()?"is readable":"is not readable");
-        System.out.println("Is "+(f1.isDirectory()?"a ":"not a")+"directory");
+        System.out.println("Is "+(f1.isDirectory()?"a ":"not a ")+"directory");
         System.out.println(f1.isFile()?"is normal file":"might be a named pipe");
         System.out.println(f1.isAbsolute()?"is absolute":"is not absoulte");
         System.out.println("File last modefied: "+f1.lastModified());
