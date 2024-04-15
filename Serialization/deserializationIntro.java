@@ -17,5 +17,10 @@ public class deserializationIntro implements Serializable{
             c.printStackTrace();
             return;
         }
+        System.out.println("***Deserialized Student***");
+        System.out.println("Student Name : "+s.stu_Name);
+        System.out.println("Student Address : "+s.stu_Addr);
+        System.out.println("Student Id : "+s.stu_Id);
+
     }
 }
