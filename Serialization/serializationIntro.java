@@ -1,18 +1,25 @@
 //To ignore some value, use transient, it will not save the content of that data member
 //If you make something static during serialization, it will change, give out any value
 import java.io.*;
+import java.util.*;
 public class serializationIntro implements Serializable{
     public String stu_Name, stu_Addr;
-    transient int stu_BloodGrp;
+    transient String stu_BloodGrp;
     public int stu_Id;
     static int stu_Age;
     public static void main(String arg[]){
+        Scanner sc = new Scanner(System.in);
         serializationIntro s = new serializationIntro();
-        s.stu_Name="John Doe";
-        s.stu_Addr="123 ABC Street";
-        s.stu_Id=15;
-        s.stu_BloodGrp='A';
-        s.stu_Age = 21;
+        System.out.print("Enter student name: ");
+        s.stu_Name=sc.nextLine();
+        System.out.print("Enter Address: ");
+        s.stu_Addr=sc.nextLine();
+        System.out.print("Enter student blood group: ");
+        s.stu_BloodGrp=sc.nextLine();
+        System.out.print("Enter student Id: ");
+        s.stu_Id=sc.nextInt();
+        System.out.print("Enter student age: ");
+        s.stu_Age = sc.nextInt();
         try{
             FileOutputStream fileout = new FileOutputStream("C:\\Users\\omude\\OneDrive\\Desktop\\Java-Programming\\Serialization\\serializationIntro.txt");
             ObjectOutputStream out = new ObjectOutputStream(fileout);
@@ -24,4 +31,4 @@ public class serializationIntro implements Serializable{
                 i.printStackTrace();
         }
     }
-}
+}   
