@@ -1,8 +1,8 @@
-//When we are going to know the data type during runtime, we use generic class
-//Using this, we can intake take of any type and adapt our methods and functions
-//We use T in angle brackets as it is predefined for taing in type (first parameter)
-//Similarly S is used in case of taking in two parameter/types where S is predefined as the second parameter
-//We can use different var inplace of T butcompiler will take time to figure it out and will also display an error
+//When we are going to know the data type during runtime, we use generic class. Generic class is mainly used in dynamic programming.
+//Using this, we can intake any type and adapt our methods and functions to that type.
+//We use T in angle brackets as it is predefined for taing in the type (first parameter)
+//Similarly S is used in case of taking in second parameter/type 
+//We can use different variables inplace of T but compiler will take time to figure it out and will also display an warning
 
 class Box<T> {
     private T object;
