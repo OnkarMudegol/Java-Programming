@@ -1,3 +1,4 @@
+//Here first T is acting as the return type and second is acting as the input type
 class GenericClass<X>{
     <T>GenericClass(T t){
         System.out.println(t);
