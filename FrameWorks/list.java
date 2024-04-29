@@ -6,9 +6,11 @@ class list{
         list.add("Vijay");
         list.add("Ravi");
         list.add("Ajay");
+        //Iterator is not mandatory
         Iterator itr = list.iterator();
         while(itr.hasNext()){
             System.out.println(itr.next());
         }
+        System.out.println(list);
     }
 }
