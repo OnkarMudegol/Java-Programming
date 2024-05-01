@@ -12,5 +12,8 @@ class treeSet{
             System.out.println(itr.next());
         }
         System.out.println(set);
+        //To get the lowest and highest value
+        System.out.println("The lowest value is: "+set.pollFirst());
+        System.out.println("The lowest value is: "+set.pollLast());
     }
 }
