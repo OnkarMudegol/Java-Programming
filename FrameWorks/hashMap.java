@@ -21,5 +21,21 @@ public class hashMap{
         {
             System.out.println("The vakue at key "+m.getKey()+" is "+m.getValue());
         }
+        //Key based removal
+        System.out.print("Enter the key value to be removed: ");
+        int remKey = sc.nextInt();
+        map.remove(remKey);
+        sc.nextLine();
+        System.out.println("The updated HashMap is: "+map);
+        System.out.println("The updated HashMap is: "+map);
+        //Pair based removal
+        System.out.print("Enter the key to be removed: ");
+        remKey = sc.nextInt();
+        sc.nextLine();
+        System.out.print("Enter the value to be removed: ");
+        remVal = sc.nextLine();
+        map.remove(remKey, remVal);
+        System.out.println("The updated HashMap is: "+map);
+        System.out.println("The size of the HashMap is: "+map.size());
     }
 }
